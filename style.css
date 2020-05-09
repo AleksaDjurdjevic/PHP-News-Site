@@ -1,0 +1,146 @@
+html {
+	position: relative;
+	min-height: 100vh;
+}
+body {
+	background-image: url("images/wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	margin: 0;
+	padding-top: 15px;
+}
+hr {
+	border-color: rgba(247, 228, 2, 0.7);
+	background-color: rgba(247, 228, 2, 0.7);
+	clear: both;
+}
+#wrapper {
+	margin:0 auto;
+	max-width: 65%;
+	padding-bottom: 100px;
+}
+/* Header */
+#nav {
+	margin: 0 auto;
+	min-width: 100%;
+	padding-bottom: 15px;
+}
+#nav ul {
+	padding: 0;
+	text-align: center;
+	margin:0;
+}
+#nav li{
+	padding: 5px;
+	border: 3px #fff solid;
+	margin: 0px 1px 0 1px;
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#fff;
+}
+.addMenu{
+	text-align: center;
+}
+.registerLogin {
+	float:right;
+	margin: 0px 15px 0px 0px;
+}
+.news {
+	margin:auto;
+	width: 400px;
+	margin-top:20px;
+	font-size: 4em;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+#footer {
+	height: 19px;
+	position: absolute;
+	right: 0;
+	bottom: 1%;
+	left: 0;
+	text-align: center;
+}
+#footer p {
+	margin:0;
+}
+#main {
+	background-color: rgba(59, 59, 59, 0.95);
+	padding: 10px;
+	border-radius: 25px;
+}
+.newsWrap {
+	width:auto;
+}
+.newsWrap h2{
+	margin-top: 5px;
+}
+.newsWrap img {
+	float:left;
+	margin: 3px 15px 10px 0;
+}
+.newsWrap p {
+	margin-top: 0;
+}
+.form{
+	display:inline;
+}
+#logreg {
+	background-color: rgba(59, 59, 59, 0.95);
+	padding: 10px;
+	border-radius: 25px;
+	text-align: center;
+}
+#logreg input {
+	margin: 2px;
+}
+.newsWrapArticle img{
+	display:block;
+	margin: 0 auto;
+}
+.commentForm {
+	text-align: center;
+}
+textarea{
+	resize: none;
+	height: 70px;
+	width: 300px;
+}
+.commentWrap{
+	margin:0 auto;
+	max-width: 600px;
+	overflow-wrap: break-word;
+}
+.commentWrap p{
+	border-bottom: 1px solid rgba(247, 228, 2, 0.7);
+	overflow-wrap: break-word;
+}
+.commentLogin{
+	margin:0 auto;
+	max-width: 600px;
+	font-weight: bold;
+	font-style: italic;
+}
+.removeContent{
+	position: relative;
+}
+.removeContent button{
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+.addNews{
+	position: relative;
+}
+.addNews button{
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
